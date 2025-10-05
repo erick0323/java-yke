@@ -1,4 +1,4 @@
-name: deploy poybatyr
+name: deploy CxertyAder
 
 on:
   push:
@@ -12,7 +12,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout
+      - name: Checkouts
         uses: actions/checkout@v2
 
       - name: Setup Dependencies
